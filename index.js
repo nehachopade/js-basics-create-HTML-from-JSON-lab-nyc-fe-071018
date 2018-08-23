@@ -4,11 +4,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const terminatorButton =document.getElementById('Terminator 2')
   titanicButton.addEventListener('click',(event) =>{
     updateHTMLContent('Titanic') 
-    //do something here
   })
   terminatorButton.addEventListener('click',(event) =>{
     updateHTMLContent('Terminator 2') 
-    //do something here
   })
 });
 function updateHTMLContent(movieName)
@@ -20,7 +18,7 @@ function updateHTMLContent(movieName)
   let poster=document.getElementById('poster')
   let description =document.getElementById('description')
   let audienceScore=document.getElementById('audienceScore')
-  let currentMovie = movie[movieName]
+  let currentMovie = movies[movieName]
   
   title.innerHTML = movies[currentMovie].title
   director.innerHTML = movies[currentMovie].director
