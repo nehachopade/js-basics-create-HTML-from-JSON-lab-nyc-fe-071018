@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     //do something here
   })
   terminatorButton.addEventListener('click',(event) =>{
+    updateHTMLContent() 
     //do something here
   })
 });
