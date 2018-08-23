@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 function updateHTMLContent()
 {
-  let title = getElementById ('title')
-  let director = getElementById ('director')
-  let genre = getElementById ('genre')
-  let filmRating = getElementById ('filmRating')
+  let title = document.getElementById ('title')
+  let director = document.getElementById ('director')
+  let genre = document.getElementById ('genre')
+  let filmRating = document.getElementById ('filmRating')
   
   title.innerHTML = 'Hi'
   
