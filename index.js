@@ -20,7 +20,7 @@ function updateHTMLContent(movieName)
   let poster=document.getElementById('poster')
   let description =document.getElementById('description')
   let audienceScore=document.getElementById('audienceScore')
-  let currentMovie = movie[moviename]
+  let currentMovie = movie[movieName]
   
   title.innerHTML = movies[currentMovie].title
   director.innerHTML = movies[currentMovie].director
