@@ -19,4 +19,5 @@ function updateHTMLContent()
   let filmRating = getElementById ('filmRating')
   
   title.innerHTML = 'Hi'
+  
 }
