@@ -11,8 +11,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
     //do something here
   })
 });
-function updateHTMLContent
-let title = getElementById ('title')
-let director = getElementById ('director')
-let genre = getElementById ('genre')
-let filmRating = getElementById ('filmRating')
+function updateHTMLContent()
+{
+  let title = getElementById ('title')
+  let director = getElementById ('director')
+  let genre = getElementById ('genre')
+  let filmRating = getElementById ('filmRating')
+  
+}
