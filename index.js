@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const titanicButton =document.getElementById('Titanic')
   const terminatorButton =document.getElementById('Terminator 2')
   titanicButton.addEventListener('click',(event) =>{
+    updateHTMLContent()
     //do something here
   })
   terminatorButton.addEventListener('click',(event) =>{
