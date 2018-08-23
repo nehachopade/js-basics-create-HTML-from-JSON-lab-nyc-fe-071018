@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const titanicButton =document.getElementById('Titanic')
   const terminatorButton =document.getElementById('Terminator 2')
   titanicButton.addEventListener('click',(event) =>{
-    updateHTMLContent()
+    updateHTMLContent() 
     //do something here
   })
   terminatorButton.addEventListener('click',(event) =>{
@@ -17,6 +17,6 @@ function updateHTMLContent()
   let genre = document.getElementById ('genre')
   let filmRating = document.getElementById ('filmRating')
   
-  title.innerHTML = 'Hi'
+  title.innerHTML = movies['Titanic'].title
   
 }
