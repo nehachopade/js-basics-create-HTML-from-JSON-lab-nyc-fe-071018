@@ -20,11 +20,11 @@ function updateHTMLContent(movieName)
   let audienceScore=document.getElementById('audienceScore')
   let currentMovie = movies[movieName]
   
-  title.innerHTML = movies[currentMovie].title
-  director.innerHTML = movies[currentMovie].director
-  genre.innerHTML = movies[currentMovie].genre
-  filmRating.innerHTML = movies[currentMovie].filmRating
-  poster.setAttribute('src', movies[currentMovie].poster)
-  description.innerHTML =movies[currentMovie].description
-  audienceScore.innerHTML= movies[currentMovie].audienceScore
+  title.innerHTML = currentMovie.title
+  director.innerHTML = currentMovie.director
+  genre.innerHTML = currentMovie.genre
+  filmRating.innerHTML = currentMovie.filmRating
+  poster.setAttribute('src', currentMovie.poster)
+  description.innerHTML =currentMovie.description
+  audienceScore.innerHTML= currentMovie.audienceScore
 }
