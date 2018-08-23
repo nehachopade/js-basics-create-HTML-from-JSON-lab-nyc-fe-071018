@@ -17,5 +17,6 @@ function updateHTMLContent()
   let director = getElementById ('director')
   let genre = getElementById ('genre')
   let filmRating = getElementById ('filmRating')
-  title.innerText = "Hi"
+  
+  title.innerHTML = 'Hi'
 }
