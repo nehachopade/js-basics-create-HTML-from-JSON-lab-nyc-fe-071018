@@ -30,3 +30,4 @@ function updateHTMLContent(movieName)
   description.innerHTML =movies[currentMovie].description
   audienceScore.innerHTML= movies[currentMovie].audienceScore
 }
+updateHTMLContent(Titanic)
