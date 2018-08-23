@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const titanicButton =document.getElementById('Titanic')
   const terminatorButton =document.getElementById('Terminator 2')
   titanicButton.addEventListener('click',(event) =>{
-    updateHTMLContent() 
+    updateHTMLContent('Titanic') 
     //do something here
   })
   terminatorButton.addEventListener('click',(event) =>{
-    updateHTMLContent() 
+    updateHTMLContent('Terminator 2') 
     //do something here
   })
 });
@@ -30,4 +30,3 @@ function updateHTMLContent(movieName)
   description.innerHTML =movies[currentMovie].description
   audienceScore.innerHTML= movies[currentMovie].audienceScore
 }
-updateHTMLContent(Titanic)
