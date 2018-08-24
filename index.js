@@ -1,5 +1,4 @@
  updateHTMLContent('Titanic') 
- updateHTMLContent('Terminator 2')
  
 document.addEventListener("DOMContentLoaded", (e) => {
   console.log(movies)
