@@ -1,4 +1,13 @@
  updateHTMLContent('Titanic') 
+ console.log(movies)
+  const titanicButton =document.getElementById('Titanic')
+  const terminatorButton =document.getElementById('Terminator 2')
+  titanicButton.addEventListener('click',(event) =>{
+    updateHTMLContent('Titanic') 
+  })
+  terminatorButton.addEventListener('click',(event) =>{
+    updateHTMLContent('Terminator 2') 
+  })
  
 document.addEventListener("DOMContentLoaded", (e) => {
   console.log(movies)
