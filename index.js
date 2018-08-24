@@ -1,7 +1,7 @@
  updateHTMLContent('Titanic') 
+ updateHTMLContent('Terminator 2')
  
-  document.addEventListener("DOMContentLoaded", (e) => {
-    //updateHTMLContent('Titanic') 
+document.addEventListener("DOMContentLoaded", (e) => {
   console.log(movies)
   const titanicButton =document.getElementById('Titanic')
   const terminatorButton =document.getElementById('Terminator 2')
