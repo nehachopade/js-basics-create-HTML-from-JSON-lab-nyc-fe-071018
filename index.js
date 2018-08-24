@@ -20,6 +20,7 @@ function updateHTMLContent(movieName)
   let audienceScore=document.getElementById('audienceScore')
   let currentMovie = movies[movieName]
   let cast =document.getElementById('cast')
+  let reviews=document.getElementById('reviews')
   
   
   title.innerHTML = currentMovie.title
@@ -46,4 +47,5 @@ function updateHTMLContent(movieName)
     reviewInnerHTML +=("<p>" + userName + ":"+ content +"</li>")
   }
   reviewInnerHTML+="</div"
+  reviews.innerHTML =reviewInnerHTML
 }
