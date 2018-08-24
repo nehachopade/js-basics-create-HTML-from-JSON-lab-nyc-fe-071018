@@ -45,4 +45,5 @@ function updateHTMLContent(movieName)
     let content= review.content
     reviewInnerHTML +=("<p>" + userName + ":"+ content +"</li>")
   }
+  reviewInnerHTML+="</div"
 }
