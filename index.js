@@ -1,10 +1,14 @@
-document.addEventListener("DOMContentLoaded", (e) => {
+titanicButton.addEventListener('click',(event) =>{
+    updateHTMLContent('Titanic') 
+  })
+  
+  document.addEventListener("DOMContentLoaded", (e) => {
   console.log(movies)
   const titanicButton =document.getElementById('Titanic')
   const terminatorButton =document.getElementById('Terminator 2')
-  titanicButton.addEventListener('click',(event) =>{
+  /*titanicButton.addEventListener('click',(event) =>{
     updateHTMLContent('Titanic') 
-  })
+  })*/
   terminatorButton.addEventListener('click',(event) =>{
     updateHTMLContent('Terminator 2') 
   })
